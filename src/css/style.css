@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: rgb(22, 73, 44);
+    color: white;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    box-sizing:content-box;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+header h2{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.melhores {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.musicas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 100%;
+    align-items:flex-end;
+}
+
+.capa {
+    display: flex;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 200px;
+    align-items: center;
+}
+
+.itens {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.textodentro {
+    margin-bottom: 10px;
+}
+.textodentrob {
+    margin-bottom: 5px;
+}
+
+.secletras {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secletras h3 {
+    font-size: 2em;
+}
+
+.letra {
+    background-color: rgb(117, 117, 117, 0.3);
+    border-radius: 10px;
+    width: 420px;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body{
+        background-color: white;
+    }
+}
