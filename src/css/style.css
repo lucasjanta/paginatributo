@@ -56,7 +56,11 @@ header h2{
     max-width: 150px;
     max-height: 150px;
     border-radius: 200px;
-    align-items: center;
+}
+
+.capa:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
 }
 
 .itens {
