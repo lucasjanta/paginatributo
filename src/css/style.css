@@ -96,7 +96,33 @@ header h2{
     text-align: center;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
 
+footer h5 {
+    font-size: 1.2em;
+}
+
+.redes {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin: 20px;
+}
+
+.redeicon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
 
 @media screen and (max-width: 768px) {
     body{
